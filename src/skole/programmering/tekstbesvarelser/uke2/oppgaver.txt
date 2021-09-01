@@ -1,0 +1,15 @@
+1.2.6
+   2) Når de 2 største verdiene ligger først.
+   3) Nei, det er samme effektivitet, men om vi tar med operasjonene
+      som skjer når a[i] > maks er sann, så er det værst sortert stigende,
+      og best sortert synkende.
+
+1.2.8
+   1) Det blir k - 1 møter. 16 deltager = 15 møter, 2^k = 2^k-1 møter.
+   2)
+
+
+1.2.9
+   1) Bladnoder = 16, indre noder = 15
+   2) 2^K
+   3) Antall noder = 2n-1. Høyde = log2(n). Sammenligninger = n-1
