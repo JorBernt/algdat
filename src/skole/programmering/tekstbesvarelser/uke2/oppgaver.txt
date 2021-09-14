@@ -13,3 +13,22 @@
    1) Bladnoder = 16, indre noder = 15
    2) 2^K
    3) Antall noder = 2n-1. Høyde = log2(n). Sammenligninger = n-1
+
+1.2.11
+   1)
+    A) Treet er Fullt. Høyden er 3. 6 Bladnoder. Det er ikke et turneringstre.
+    B) Treet er Fullt. Høyden er 3. 6 Bladnoder. Det er ikke et turneringstre.
+    C) Treet er Fullt. Høyden er 3. 6 Bladnoder. Det er ikke et turneringstre.
+    D) Treet oppfyller ingen av de. Høyden er 3. 4 Bladnoder. Det er ikke et turneringstre.
+    E) Treet er komplett og fullt. Høyden er 3. Det er 7 bladnoder. Det er et turneringstre.
+    F)  Treet oppfyller ingen av de. Høyden er 3. 4 Bladnoder. Det er ikke et turneringstre.
+
+   2)
+    3. Roten til et fullt binærtre med mer en 1 node er alltid 3 noder, og videre legges det til 0
+       eller 2 noder. Siden starten er et oddetal, og vi alltid legger til et partal, vil antall
+       noder alltid være oddetal. 3+2n
+    4. La n >= 1 og k er det største heltallet slik at 2^k <= n. Dermed blir 2^K <= n <= 2^(k+1)
+       Vi får k <= log2(n) < k + 1 og dermed floor(log2(n)) = k
+       Videre får vi at 2^k < n + 1 <= 2^(k+1) og dermed at k < log2(n+1) <= k+1.
+       Det betyr at ceil(log2(n+1)) -1 = k + 1 - 1 = k;
+
